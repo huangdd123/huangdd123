@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/register/register"
+  ],
+  "window": {
+    "navigationBarTitleText": "非遗文化展示",
+    "navigationBarBackgroundColor": "#b71c1c",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fdf5f5",
+    "backgroundTextStyle": "dark"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

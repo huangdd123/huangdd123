@@ -1,0 +1,51 @@
+.field {
+  margin-bottom: 20rpx;
+}
+
+.label {
+  display: block;
+  font-size: 26rpx;
+  color: #7a4a4a;
+  margin-bottom: 8rpx;
+}
+
+.input {
+  background: #fff7f7;
+  border-radius: 12rpx;
+  padding: 16rpx;
+  border: 2rpx solid #f5dede;
+}
+
+.roles {
+  display: flex;
+  gap: 16rpx;
+  margin-top: 8rpx;
+}
+
+.role-item {
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+  padding: 12rpx 16rpx;
+  background: #fff1f1;
+  border-radius: 999rpx;
+  font-size: 24rpx;
+  color: #b71c1c;
+}
+
+.permission {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
+  margin-bottom: 12rpx;
+}
+
+.permission-text {
+  font-size: 24rpx;
+  color: #5a3333;
+}
+
+.admin-info {
+  background: #fff1f1;
+  border: 2rpx dashed #ef9a9a;
+}

@@ -1,0 +1,56 @@
+<view class="container">
+  <view class="section hero">
+    <view class="hero-text">
+      <view class="title">非遗文化展示</view>
+      <view class="subtitle">探索传统技艺与红色文化故事</view>
+    </view>
+    <view class="hero-tags">
+      <text class="tag">剪纸</text>
+      <text class="tag">皮影戏</text>
+      <text class="tag">红色记忆</text>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="title">精选轮番图</view>
+    <swiper class="banner" autoplay interval="4000" circular>
+      <swiper-item>
+        <image class="banner-image" src="https://images.unsplash.com/photo-1471879832106-c7ab9e0cee23?auto=format&fit=crop&w=800&q=80" mode="aspectFill" />
+      </swiper-item>
+      <swiper-item>
+        <image class="banner-image" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" mode="aspectFill" />
+      </swiper-item>
+      <swiper-item>
+        <image class="banner-image" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80" mode="aspectFill" />
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class="section">
+    <view class="title">今日推荐</view>
+    <view class="card">
+      <view class="card-title">《红色泥塑·少年传承》</view>
+      <view class="card-desc">记录传承者以红色故事为题材的泥塑创作过程。</view>
+      <view class="card-meta">
+        <text class="tag">点赞 120</text>
+        <text class="tag">收藏 68</text>
+        <text class="tag">评论 24</text>
+      </view>
+    </view>
+    <view class="card">
+      <view class="card-title">《灯影戏里的红色记忆》</view>
+      <view class="card-desc">传统皮影戏融入红色剧目，展现基层文化活力。</view>
+      <view class="card-meta">
+        <text class="tag">点赞 98</text>
+        <text class="tag">收藏 53</text>
+        <text class="tag">评论 19</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="title">快速入口</view>
+    <button class="btn-primary" bindtap="goMain">进入主页</button>
+    <button class="btn-ghost" bindtap="goRegister">点击注册</button>
+  </view>
+</view>

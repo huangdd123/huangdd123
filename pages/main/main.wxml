@@ -1,0 +1,57 @@
+<view class="container">
+  <view class="section">
+    <view class="title">主页登录</view>
+    <view class="subtitle">请选择账号身份后登录</view>
+  </view>
+
+  <view class="section">
+    <view class="field">
+      <text class="label">账号</text>
+      <input class="input" placeholder="请输入账号" />
+    </view>
+    <view class="field">
+      <text class="label">密码</text>
+      <input class="input" type="password" placeholder="请输入密码" />
+    </view>
+    <view class="field">
+      <text class="label">身份选择</text>
+      <radio-group class="roles">
+        <label class="role-item">
+          <radio value="visitor" checked />
+          <text>游客</text>
+        </label>
+        <label class="role-item">
+          <radio value="inheritor" />
+          <text>传承者</text>
+        </label>
+        <label class="role-item">
+          <radio value="admin" />
+          <text>管理者</text>
+        </label>
+      </radio-group>
+    </view>
+    <button class="btn-primary">登录</button>
+    <button class="btn-ghost" bindtap="goRegister">注册新账号</button>
+  </view>
+
+  <view class="section">
+    <view class="title">角色权限说明</view>
+    <view class="permission">
+      <text class="tag">游客</text>
+      <text class="permission-text">可点赞、收藏、评论帖子。</text>
+    </view>
+    <view class="permission">
+      <text class="tag">传承者</text>
+      <text class="permission-text">可上传非遗作品与故事。</text>
+    </view>
+    <view class="permission">
+      <text class="tag">管理者</text>
+      <text class="permission-text">可选择是否上传，并进行内容管理。</text>
+    </view>
+  </view>
+
+  <view class="section admin-info">
+    <view class="title">管理者默认账号</view>
+    <view class="subtitle">账号：admin ｜ 密码：admin123</view>
+  </view>
+</view>
