@@ -1,0 +1,51 @@
+.hero {
+  background: linear-gradient(135deg, #b71c1c, #ef5350);
+  color: #fff;
+}
+
+.hero-text .title {
+  color: #fff;
+}
+
+.hero-text .subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-tags {
+  margin-top: 16rpx;
+}
+
+.banner {
+  height: 320rpx;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  padding: 20rpx;
+  border: 2rpx solid #f5dede;
+  border-radius: 16rpx;
+  margin-bottom: 16rpx;
+}
+
+.card-title {
+  font-size: 30rpx;
+  font-weight: 600;
+  margin-bottom: 12rpx;
+}
+
+.card-desc {
+  font-size: 24rpx;
+  color: #6b4141;
+  margin-bottom: 12rpx;
+}
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+.field {
+  margin-bottom: 20rpx;
+}
+
+.label {
+  display: block;
+  font-size: 26rpx;
+  color: #7a4a4a;
+  margin-bottom: 8rpx;
+}
+
+.input {
+  background: #fff7f7;
+  border-radius: 12rpx;
+  padding: 16rpx;
+  border: 2rpx solid #f5dede;
+}
+
+.picker {
+  background: #fff1f1;
+  border-radius: 12rpx;
+  padding: 18rpx;
+  border: 2rpx dashed #ef9a9a;
+}
+
+.picker-value {
+  color: #b71c1c;
+  font-size: 26rpx;
+}
